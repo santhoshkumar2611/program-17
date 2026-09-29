@@ -25,5 +25,9 @@ BEGIN
         p_DepartmentID
     );
 
+    COMMIT;
+
+    DBMS_OUTPUT.PUT_LINE('Student record inserted successfully');
+
 END;
 /
